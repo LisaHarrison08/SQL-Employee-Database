@@ -2,15 +2,12 @@
 
 ![sql.png](sql.png)
 
-## Background
-
-It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
 Designed tables to hold data in the CSVs, imported the CSVs into a SQL database, and answered questions about the data. Performed:
 
 1. Data Engineering
 
-3. Data Analysis
+2. Data Analysis
 
 #### Data Modeling
 
@@ -18,9 +15,9 @@ Inspected the CSVs and sketched out an ERD of the tables. Using the following to
 
 #### Data Engineering
 
-* Useed the information gathered to create a table schema for each of the six CSV files. Remembering to specify data types, primary keys, foreign keys, and other constraints.
+* Used the information gathered to create a table schema for each of the six CSV files. Remembering to specify data types, primary keys, foreign keys, and other constraints.
 
-  * Created tables in the correct order to handle foreign keys.
+* Created tables in the correct order to handle foreign keys.
 
 * Imported each CSV file into the corresponding SQL table. imported the data in the same order that the tables were created and accounted for the headers when importing to avoid errors.
 
